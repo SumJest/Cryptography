@@ -32,21 +32,21 @@ public class Main { // Main Class
 	private static File file;
 	private static String key = "qwerty123"; // Special key for EnCrypting
 	private static Dimension dim;
-  
+	  
 	private static void createGUI(){
   
-		final JFrame frame= new JFrame("Cryptography"); 
-		JPanel panel = new JPanel();
-		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-		int height = dim.height / 2 - 100;
-		int width = dim.width /2 - 450;
-		frame.setSize(450, 100);
-		frame.setLocation(width, height);
-		frame.setResizable(false);
-    JButton buttonc = new JButton("EnCrypt");
-    JButton buttonde = new JButton("DeCrypt");
+	final JFrame frame= new JFrame("Cryptography"); 
+	JPanel panel = new JPanel();
+	frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+	int height = dim.height / 2 - 100;
+	int width = dim.width /2 - 450;
+	frame.setSize(450, 100);
+	frame.setLocation(width, height);
+	frame.setResizable(false);
+    	JButton buttonc = new JButton("EnCrypt");
+    	JButton buttonde = new JButton("DeCrypt");
         
-    ActionListener listenerC = new ActionListener() {
+    	ActionListener listenerC = new ActionListener() {
 			
 			@Override
 			public void actionPerformed(ActionEvent e) {
